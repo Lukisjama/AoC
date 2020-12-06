@@ -30,16 +30,4 @@ for group in puzzle:
                     print ("--Už znám")
     unique.clear()
     print ("_______")
-
-
-
 print(suma)
-
-
-#for line in open('05.txt', 'r').readlines():
-    #print(line)
-    #if "//n//n" not in line:
-        #print("______")
-
-
-#print(len(set("aaaa")))
