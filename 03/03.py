@@ -12,7 +12,7 @@ def count_trees_on_slope(map, slope_x, slope_y): #Y je sloupec, X je radek
         if posx >= wrap: #Jestli jsem na konci radku?
             posx -=wrap
         if map[posy][posx] == "#": #Je tam strom?
-            treecount +=1
+            treecount +=1w
         posy += slope_y
         posx += slope_x
 
