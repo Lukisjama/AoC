@@ -5,7 +5,7 @@ count = 0
 suma = 0
 people = 0
 
-with open('05.txt', 'r') as file:
+with open('06.txt', 'r') as file:
     rawPuzzle = file.read().replace('\n', ' ')
 
 puzzle = rawPuzzle.split("  ")

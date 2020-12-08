@@ -2,7 +2,7 @@
 puzzle = []
 suma = 0
 
-with open('05.txt', 'r') as file:
+with open('06.txt', 'r') as file:
     rawPuzzle = file.read().replace('\n', ' ')
 
 puzzle = rawPuzzle.split("  ")
@@ -19,7 +19,7 @@ print(puzzle)
 print(suma)
 
 
-#for line in open('05.txt', 'r').readlines():
+#for line in open('06.txt', 'r').readlines():
     #print(line)
     #if "//n//n" not in line:
         #print("______")
